@@ -1,0 +1,274 @@
+# ==========================================
+# Python
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.so
+
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+pip-wheel-metadata/
+share/python-wheels/
+
+*.egg-info/
+.installed.cfg
+*.egg
+
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+
+# ==========================================
+# Environment Variables / Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# API keys / credentials
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+credentials.json
+service-account.json
+secrets.json
+
+
+# ==========================================
+# LLM / AI API Secrets
+# ==========================================
+
+# OpenAI
+openai_api_key.txt
+
+# Any local secret/config files
+secrets/
+.secret/
+.secrets/
+
+
+# ==========================================
+# Document Processing - Generated Files
+# ==========================================
+
+# PDFs
+*.pdf
+
+# Images generated/extracted during processing
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.tiff
+*.tif
+*.bmp
+
+# Scanned / OCR output
+ocr_output/
+ocr_outputs/
+ocr/
+extracted_text/
+extracted_texts/
+
+
+# ==========================================
+# Input / Output / Temporary Data
+# ==========================================
+
+input/
+inputs/
+output/
+outputs/
+processed/
+processing/
+temp/
+tmp/
+temporary/
+
+data/
+dataset/
+datasets/
+
+
+# ==========================================
+# Generated JSON / CSV / Excel
+# ==========================================
+
+# Ignore generated files
+*.csv
+*.xlsx
+*.xls
+
+# Be careful with JSON:
+# Don't ignore all JSON because some projects
+# have important configuration files.
+generated_json/
+extracted_json/
+results/
+results.json
+
+
+# ==========================================
+# Logs
+# ==========================================
+
+*.log
+logs/
+
+log/
+debug.log
+error.log
+
+
+# ==========================================
+# Cache
+# ==========================================
+
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+.pyre/
+
+
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+
+.ipynb_checkpoints/
+
+
+# ==========================================
+# Testing / Coverage
+# ==========================================
+
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+
+# ==========================================
+# IDE / Editors
+# ==========================================
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+.idea/
+*.iml
+
+*.swp
+*.swo
+*~
+
+
+# ==========================================
+# OS Files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ==========================================
+# Local Databases
+# ==========================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+
+# ==========================================
+# Model / ML Artifacts
+# ==========================================
+
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.pkl
+*.pickle
+*.joblib
+
+models/
+model/
+checkpoints/
+
+
+# ==========================================
+# Vector Databases / Embeddings
+# ==========================================
+
+chroma/
+chroma_db/
+.chromadb/
+vector_db/
+vectordb/
+faiss_index/
+
+
+# ==========================================
+# Docker
+# ==========================================
+
+# Don't ignore Dockerfile or docker-compose.yml.
+# Ignore local Docker data.
+.docker/
+
+
+# ==========================================
+# Local Runtime Files
+# ==========================================
+
+*.pid
+*.pid.lock
+*.seed
+*.pidfile
+
+
+# ==========================================
+# Miscellaneous
+# ==========================================
+
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+*.temp
